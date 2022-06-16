@@ -26,16 +26,16 @@ flex-direction: row;
 
 }
 .box1{
-    background-color: aqua;
+    background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 .box2{
-    background-color: bisque;
+    background-color: hsl(184, 100%, 22%);
 
 }
 .box3{
-    background-color: chartreuse;
+    background-color: hsl(179, 100%, 13%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -43,14 +43,14 @@ flex-direction: row;
     padding: 10px;
 }
 h1{
-    color: black;
+    color: hsl(0, 0%, 95%);
     text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-family: Lexend Deca;
     margin: 20px 0;
 }
 p{
-    color: brown;
-    font-family: Cambria, Cochin;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family:lexend Deca;
 
 }
 .btn{
@@ -59,10 +59,10 @@ p{
     border: 0;
     border-radius: 30px;
     outline: none;
-    background-color: palegreen;
+    background-color: hsl(0, 0%, 95%);
     font-size: 15px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 400;
     font-family: Arial, Helvetica;
 }
 .btn:hover{
