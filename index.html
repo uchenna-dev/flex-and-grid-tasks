@@ -5,37 +5,40 @@ shifts + <!DOCTYPE html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Css flexbox
+        responsive registration form
     </title>
-    <link href="flex.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        </style>
 </head>
 <body>
-
-    <div class="box-container">
-        <div class="box box1">
-            <div class="content">
-            <img src="./images.png/icon-luxury.svg" width="70px" alt=" suv icons">
-            <h1> SEDANS</h1>
-            <p>Choose a sedan for its availability and excellent fuel economy. ideal for cruising or on your next road trip</p>
-            <button class="btn btn 1"> Learn More</button>
+    <div class="container">
+    <div class="heading">Try it free 7days then $20/mo, thereafter</div>
+    <h1> Learn To Code By Watching Others</h1>
+    <p>See how experienced developers solve problems in real-time. Watching sripted tutorials is great, but understanding how develoers thnk is invaluable.</p>
+    <form action="#">
+        <div class="card-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="First Name">
         </div>
+        <div class="card-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Last Name">
         </div>
-        <div class="box box2">
-            <div class="content">
-              <img src="./images.png/icon-suvs.svg" width="70px"alt=" suv icons">
-            <h1> SUVS</h1>
-            <p> Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off road adventures. </p>
-            <button class="btn btn 1"> Learn More</button>
+        <div class="card-box">
+            <span class="details">Email address</span>
+            <input type="email" placeholder="enter e-mail here">
         </div>
+        <div class="card-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="enter password">
         </div>
-        <div class="box box3">
-            <div class="content">
-            <img src="./images.png/icon-luxury(1).svg" width="70px"alt=" suv icons">
-            <h1> Luxury</h1>
-            <p>Cruise in the best car brands without the bloated prices. Enjoy every comfort of a luxury rental and arive in style</p>
-            <button class="btn btn 1"> Learn More</button>
+        <div class="button">
+            <input type="submit" value="CLAIM YOUR FREE TRIAL">
         </div>
-        </div>
+    </form>
     </div>
+
 </body>   
 </html>

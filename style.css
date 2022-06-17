@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    color: hsl(0, 100%, 74%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, hsl(0, 100%, 74%));
+    padding: 10px;
+
+}
+
+h1{
+    width: 30px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 600;
+    align-content: center;
+    justify-content: center;
+    display: inline-block;
+}
+p{
+    background: fixed;
+    width: 25px;
+    height: auto;
+    align-content: center;
+    justify-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    color: brown;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 25px;
+    background: linear-gradient( white);
+}
+
+.container .heading{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.container form .card-details{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form .card-details.card-box{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.card-details.card-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.card-details.card-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.card-details.card-box input:focus,.card-details.card-box input:valid{
+    border-color: hsl(0, 100%, 74%);
+
+}
+form .button{
+    text-align: center;
+
+}
+form .button input{
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color: whitesmoke;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, green, whitesmoke);
+
+
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, red, purple);
+}
+
+
+
+@media (max-width: 584px) {
+    .container{
+        max-width: 100%;
+
+    }
+    form .card-details.card-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .container form .card-details{
+        max-height: 300px;
+        overflow: scroll;
+    }
+    .card-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
